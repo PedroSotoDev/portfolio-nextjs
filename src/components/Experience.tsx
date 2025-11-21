@@ -1,13 +1,13 @@
 
 const styles = {
-    container: "w-full mb-8 px-4 py-2 flex flex-row items-right justify-left",
+    container: "w-full mb-8 px-3 py-2 flex flex-row items-right justify-left rounded bg-[rgb(20,20,30)] shadow-[0rem_0rem_0.6rem_0rem_rgb(0,0,0)]",
     img: "w-full my-2 mb-8 rounded-[0.4rem] sm:w-50",
     wrapper: "flex flex-col items-left justify-between",
     tittlesWrapper: "w-full w-full mb-3 flex flex-col justify-between items-start sm:flex-row",
-    tittle: "text-xl font-semibold tracking-wide text-[rgb(140,10,40)]",
-    date: "text-md text-[rgb(140,10,40)]",
-    text: "text-lg text-left font-medium",
-
+    tittle: "text-md font-semibold tracking-wide text-white",
+    date: "text-md text-white",
+    text: "text-md text-left font-medium",
+    line: "w-1 h-full mr-6 bg-whithe rounded-sm",
 }
 
 interface experienceProps{

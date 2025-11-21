@@ -12,7 +12,9 @@ const styles = {
 	main: "h-full w-full px-8 flex flex-col items-center justify-between bg-[rgb(12,14,22)] sm:px-10 lg:px-14 xl:px-16",
     header: "w-full min-h-130 z-1 flex flex-col justify-left items-center sm:flex-row sm:justify-center sm:items-center",
     flexWrapper: "w-full mb-10 z-1 flex flex-col justify-between sm:flex-row-reverse",
-    contactWrapper: "w-full h-140 mb-10 flex flex-col justify-between sm:flex-row sm:justify-around",
+    contactWrapper: "w-full h-90 mb-10 flex flex-col justify-between sm:flex-row sm:justify-around",
+    tittle: "w-full text-xl font-semibold mb-4 tracking-wide",
+    line: "w-full h-[0.15rem] rounded mb-4 bg-gradient-to-r from-[rgb(130,0,30)] to-[rgb(140,0,30)]",
 
 };
 
@@ -36,6 +38,8 @@ export default function Home() {
                 <ExperiencesCard/>
             </div>
 
+            <p className={styles.tittle}>Reach me</p>
+            <div className={styles.line}></div>
             <div className={styles.contactWrapper}>
                 <ContactCard/>
                 <SendMailForm/>   

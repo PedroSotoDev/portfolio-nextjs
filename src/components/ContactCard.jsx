@@ -12,7 +12,6 @@ const styles = {
 function ContactCard() {
     return ( 
         <section className={styles.container}>
-            <p className={styles.tittle}>Reach me</p>
 
             <div className={styles.contactWrapper}>
                 <Image

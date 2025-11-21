@@ -16,7 +16,7 @@ const animaText = ({data}:animaTextProps) => {
         loop: 0,
         typeSpeed: 80,
         deleteSpeed: 40,
-        delaySpeed: 1900,
+        delaySpeed: 4400,
     })
 
     return ( 

@@ -17,7 +17,7 @@ function SendMailForm() {
     const [error,setError] = useState("");
 
     function handleSend(){
-        setError("Todos los campos son obligatorios")
+        setError("⚠️ Todos los campos son obligatorios")
         
     }
 

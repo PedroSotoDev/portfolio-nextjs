@@ -1,6 +1,6 @@
 
 const styles = {
-    container: "w-full h-14 absolute z-10 flex flex-col justify-center items-center bg-[rgb(12,12,20)] shadow-[-0rem_0rem_0.8rem_0rem_rgb(180,25,80)]",
+    container: "w-full h-14 absolute z-10 flex flex-col justify-center items-center bg-[rgb(12,12,20)] shadow-[-0rem_0rem_0.6rem_0rem_rgb(140,0,30)]",
     frase: "text-[0.7rem] italic font-mono text-[rgb(200,70,100)] mb-1",
     text: "text-[0.8rem]",
     

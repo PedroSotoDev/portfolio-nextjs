@@ -4,7 +4,7 @@ const styles = {
     container: "max-w-100 mt-10 flex flex-col text-white sm:my-0 sm:w-full sm:flex-1",
     tittle: "text-xl mb-2 font-semibold tracking-wide",
     line: "w-full h-[0.15rem] rounded mb-4 bg-gradient-to-r from-[rgb(130,0,30)] to-[rgb(140,0,30)]",
-    text: "text-lg text-left",
+    text: "text-md text-left",
 };
 
 function AboutCard() {
